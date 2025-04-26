@@ -1,0 +1,333 @@
+.navbar-action-btn {
+display: inline-block;
+padding: 10px 20px;
+background-color:white; 
+color:black; /* White text color */
+font-size: 16px;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.navbar-action-btn:hover {
+background-color: white; /* Darker green color on hover */
+}
+
+ .navbar-action-btnn{
+	display: inline-block;
+padding: 10px 20px;
+background-color:black; 
+color:white; /* White text color */
+font-size: 16px;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+ .contact-form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contact-form h3 {
+    margin-top: 0;
+    color: white;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form textarea {
+    height: 100px;
+    max-width: fit-content;
+}
+
+.contact-form input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: black;
+}
+
+
+ 
+ .home {
+    height: 60vh;
+    background-image: url('images/h.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff; /* Set the text color to be visible on the background */
+}
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting up header styles */
+header {
+    position: fixed; /* Set the header to be fixed */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%; /* Make it take the full width of the viewport */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff; /* Change as needed */
+    z-index: 999; /* Ensure it appears above other content */
+}
+
+/* Aligning navigation links */
+.navlist {
+    display: flex;
+    list-style-type: none;
+}
+
+.navlist li {
+    margin-right: 20px;
+}
+
+/* Bringing logo to the left */
+.logo {
+    margin-right: auto;
+    color: black; /* Adjust color as needed */
+    text-decoration: none;
+}
+
+/* Aligning icons to the right */
+.header-icons {
+    margin-left: auto;
+}
+
+/* Styling search icon */
+#searchIcon {
+    color: black;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    z-index: 1;
+    display: none; 
+} 
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.header-icons:hover .dropdown-content {
+    display: block; 
+} 
+
+/* Style for the idea section */
+.idea {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 50vh;
+}
+
+/* Style for the container within the idea section */
+
+
+/* Style for the text within the idea section */
+.text22 {
+    text-align: center;
+    color: black; /* Text color */
+}
+
+/* Style for the gift heading */
+.text22 .gift {
+    font-size: 32px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Style for the lead paragraph */
+.text22 .lead {
+    font-size: 34px; /* Adjust font size as needed */
+    margin-bottom: 30px; /* Adjust margin as needed */
+}
+
+/* Style for the Let's Go button */
+.text22 .btn1 {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: black; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px; /* Adjust border radius as needed */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0; /* Initially hidden */
+    width: 0; /* Initially hidden */
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure sidebar is above other content */
+    transition: right 0.3s ease, width 0.3s ease; /* Transition for sliding animation */
+    overflow-y: auto; /* Enable scrolling if content exceeds sidebar height */
+}
+
+.sidebar.open {
+    width: 50%; /* Set width to 50% when open */
+    right: 0; /* Move sidebar to the right edge of the page when open */
+}
+
+#wishlistItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+#wishlistItems li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+/* Hover effect for the Let's Go button */
+.text22 .btn1:hover {
+    background-color: gainsboro; /* Adjust hover background color as needed */
+}
+.home-text {
+    max-width: 900px; /* Adjust max-width as needed */
+    padding-top: 0%;
+    color: #333;
+    }
+
+.home-text h2 {
+    font-style: italic;
+}
+
+.home-text p {
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.home-text blockquote {
+    font-style: italic;
+    margin: 20px 0; /* Adjust margin as needed */
+}
+
+.home-text .btn {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: black; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px; /* Adjust border radius as needed */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect for the button */
+.home-text .btn:hover {
+    background-color: #ccc; /* Adjust hover background color as needed */
+}
+
+/* Style for the search input */
+.search #searchInput {
+    display: inline-block;
+    width: 200px; /* Adjust width as needed */
+    padding: 8px 12px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Adjust border radius as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    transition: width 0.3s ease, border-color 0.3s ease; /* Smooth transition for width and border color */
+}
+
+/* Style for the search input when focused */
+.search #searchInput:focus {
+    width: 250px; /* Adjust expanded width as needed */
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Adjust focus border color as needed */
+}
+.featured-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-box {
+    width: 250px; /* Adjust width as needed */
+    margin: 20px; /* Adjust margin as needed */
+    text-align: center;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Adjust border radius as needed */
+    padding: 10px; /* Adjust padding as needed */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Add shadow for a better visual effect */
+}
+
+.image-box img {
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+.buy1 {
+    background-color: black; /* Transparent background */
+    color: #fff; /* Button text color */
+    border: 1px solid #fff; /* Button border */
+    border-radius: 5px; /* Adjust border radius as needed */
+    padding: 8px 16px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+    max-width: 100%;
+}
+
+.buy1:hover {
+    background-color: #ccc; /* Button background color on hover */
+    color: #fff; /* Button text color on hover */
+}
+
+
+
+

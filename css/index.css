@@ -1,0 +1,326 @@
+ /* Styles for the contact form in footer */
+.contact-form {
+    /* Styling for the form container */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contact-form h3 {
+    /* Styling for the heading of the form */
+    margin-top: 0;
+    color: white;
+}
+
+.contact-form label {
+    /* Styling for labels in the form */
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    /* Styling for text input and textarea */
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form textarea {
+    /* Additional styling for textarea */
+    height: 100px;
+    max-width: fit-content;
+}
+
+.contact-form input[type="submit"] {
+    /* Styling for submit button */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    /* Styling for submit button on hover */
+    background-color: black;
+}
+
+
+/* Styles for the home section */
+.home {
+    /* Styling for the home section background */
+    height: 60vh;
+    background-image: url('images/h.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff; /* Set the text color to be visible on the background */
+}
+
+/* Resetting default margin and padding */
+* {
+    /* Resetting margin and padding for all elements */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting up header styles */
+header {
+    /* Styling for the header section */
+    position: fixed; /* Set the header to be fixed */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%; /* Make it take the full width of the viewport */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff; /* Change as needed */
+    z-index: 999; /* Ensure it appears above other content */
+}
+
+/* Aligning navigation links */
+.navlist {
+    /* Styling for navigation list */
+    display:inline-flex;
+    list-style-type: none;
+}
+
+.navlist li {
+    /* Styling for navigation list items */
+    margin-right: 20px;
+}
+
+/* Bringing logo to the left */
+.logo {
+    /* Styling for the logo */
+    margin-right: auto;
+    color: black; /* Adjust color as needed */
+    text-decoration: none;
+}
+
+/* Aligning icons to the right */
+.header-icons {
+    /* Styling for icons alignment */
+    margin-left: auto;
+}
+
+/* Styling search icon */
+#searchIcon {
+    /* Styling for search icon */
+    color: black;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+
+.header-icons:hover .dropdown-content {
+    /* Styling for dropdown content on hover */
+    display: block; /* Show the dropdown content when the header-icons are hovered */
+}
+
+/* Style for the idea section */
+.idea {
+    /* Styling for the idea section */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 50vh;
+}
+
+/* Style for the text within the idea section */
+.text22 {
+    /* Styling for text within the idea section */
+    text-align: center;
+    color: black; /* Text color */
+}
+
+/* Style for the gift heading */
+.text22 .gift {
+    /* Styling for the gift heading */
+    font-size: 32px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Style for the lead paragraph */
+.text22 .lead {
+    /* Styling for the lead paragraph */
+    font-size: 34px; /* Adjust font size as needed */
+    margin-bottom: 30px; /* Adjust margin as needed */
+}
+
+/* Style for the Let's Go button */
+.text22 .btn1 {
+    /* Styling for the Let's Go button */
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: black; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px; /* Adjust border radius as needed */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect for the Let's Go button */
+.text22 .btn1:hover {
+    /* Styling for Let's Go button on hover */
+    background-color: gainsboro; /* Adjust hover background color as needed */
+}
+.home-text {
+    /* Styling for home text */
+    max-width: 900px; /* Adjust max-width as needed */
+    padding-top: 0%;
+    color: #333;
+}
+
+.home-text h2 {
+    /* Styling for home text heading */
+    font-style: italic;
+}
+
+.home-text p {
+    /* Styling for home text paragraphs */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.home-text blockquote {
+    /* Styling for blockquote in home text */
+    font-style: italic;
+    margin: 20px 0; /* Adjust margin as needed */
+}
+
+.home-text .btn {
+    /* Styling for buttons in home text */
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: black; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px; /* Adjust border radius as needed */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect for the button */
+.home-text .btn:hover {
+    /* Styling for buttons in home text on hover */
+    background-color: #ccc; /* Adjust hover background color as needed */
+}
+/* Style for the search input */
+.search #searchInput {
+    /* Styling for search input */
+    display: inline-block;
+    width: 200px; /* Adjust width as needed */
+    padding: 8px 12px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Adjust border radius as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    transition: width 0.3s ease, border-color 0.3s ease; /* Smooth transition for width and border color */
+}
+
+/* Style for the search input when focused */
+.search #searchInput:focus {
+    /* Styling for search input when focused */
+    width: 250px; /* Adjust expanded width as needed */
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Adjust focus border color as needed */
+}
+/* Style for the wishlist icon */
+.wishlist-icon {
+    /* Styling for wishlist icon */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.wishlist-icon a {
+    /* Styling for wishlist icon link */
+    color: black;
+    text-decoration: none;
+}
+
+.wishlist-icon i {
+    /* Styling for wishlist icon */
+    font-size: 24px;
+}
+.sidebar {
+    /* Styling for sidebar */
+    position: fixed;
+    top: 0;
+    right: 0; /* Initially hidden */
+    width: 0; /* Initially hidden */
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure sidebar is above other content */
+    transition: right 0.3s ease, width 0.3s ease; /* Transition for sliding animation */
+    overflow-y: auto; /* Enable scrolling if content exceeds sidebar height */
+}
+
+.sidebar.open {
+    /* Styling for open sidebar */
+    width: 50%; /* Set width to 50% when open */
+    right: 0; /* Move sidebar to the right edge of the page when open */
+}
+
+
+.close-button {
+    /* Styling for close button in sidebar */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.header-icons {
+    /* Styling for header icons */
+    position: relative;
+    color: black;
+}
+#wishlistItems {
+    /* Styling for wishlist items list */
+    list-style-type: none;
+    padding: 0;
+}
+
+#wishlistItems li {
+    /* Styling for wishlist item list items */
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+ /* CSS for styling the wishlist sidebar */
+        .wishlist-sidebar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 250px;
+            height: 100%;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+            border-left: 1px solid #ccc;
+        }
+        .wishlist-item {
+            margin-bottom: 20px;
+        }
+        .wishlist-item img {
+            max-width: 50px;
+            max-height: 50px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
